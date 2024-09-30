@@ -1,0 +1,22 @@
+h1 {
+    color: hotpink;
+    font-family: verdana, Helvetica, sans-serif;
+}
+
+h1 .gold {
+    color: gold;
+    font-family: verdana, Helvetica, sans-serif;
+}
+
+.background {
+    background-color: black;
+}
+
+.signin {
+    background-color: hotpink;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+    width: 90px;
+    height: 40px;
+}
