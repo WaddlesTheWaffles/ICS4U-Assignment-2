@@ -1,22 +1,52 @@
+.background {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.toolbar {
+    background-color: rgb(29, 27, 27);
+    border-bottom-color: hotpink;
+    border-style: solid;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+}
+
 h1 {
     color: hotpink;
     font-family: verdana, Helvetica, sans-serif;
+    margin-right: auto;
+    position: relative;
+    left: 20px;
 }
 
 h1 .gold {
     color: gold;
     font-family: verdana, Helvetica, sans-serif;
+    
 }
 
-.background {
-    background-color: black;
+.signup {
+    background-color: hotpink;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    top: 23px;
+    margin-right: 20px;
 }
 
 .signin {
     background-color: hotpink;
     color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
     width: 90px;
     height: 40px;
+    position: relative;
+    top: 23px;
+    margin-right: 20px;
 }
