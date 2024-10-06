@@ -1,10 +1,15 @@
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
 .background {
     background-color: black;
+}
+
+h1 {
+    color: white;
 }
 
 .toolbar {
@@ -16,7 +21,7 @@ html,body {
     justify-content: space-around;
 }
 
-h1 {
+h1#logo {
     color: hotpink;
     font-family: verdana, Helvetica, sans-serif;
     margin-right: auto;
@@ -24,10 +29,10 @@ h1 {
     left: 20px;
 }
 
-h1 .gold {
+h1#logo .gold {
     color: gold;
     font-family: verdana, Helvetica, sans-serif;
-    
+
 }
 
 .signup {
@@ -35,6 +40,9 @@ h1 .gold {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
+}
+
+#intoolbar {
     width: 90px;
     height: 40px;
     position: relative;
@@ -42,7 +50,7 @@ h1 .gold {
     margin-right: 20px;
 }
 
-.signin {
+#signin {
     background-color: hotpink;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -54,9 +62,26 @@ h1 .gold {
     margin-right: 20px;
 }
 
-.signup2 { /* Fix this later */
-    background-color: hotpink;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: larger;
+/* #signinhero {
+
+}
+
+h1 .herotitle {
+
+} */
+
+.herosec {
+    background-color: rgb(179, 42, 42);
+    position:fixed;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    top:225px;
+    width:1000px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self:center;
+    align-items: center;
 }
