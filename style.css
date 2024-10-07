@@ -62,26 +62,30 @@ h1#logo .gold {
     margin-right: 20px;
 }
 
-/* #signinhero {
-
-}
-
-h1 .herotitle {
-
-} */
-
 .herosec {
-    background-color: rgb(179, 42, 42);
-    position:fixed;
+    position: relative;
     left: 0;
-    right:0;
-    margin: 0 auto;
-    top:225px;
-    width:1000px;
-    height:500px;
+    right: 0;
+    margin: 50px;
+    top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-self:center;
     align-items: center;
+}
+
+h1.herotitle {
+    color: hotpink;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size:70px;
+
+}
+
+#signinhero {
+height: 75px;
+width: 150px;
+font-size: 30px;
 }
