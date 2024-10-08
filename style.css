@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 3000px;
 }
 
 .background {
@@ -16,6 +17,8 @@ h1 {
     background-color: rgb(29, 27, 27);
     border-bottom-color: hotpink;
     border-style: solid;
+    top:0px;
+    z-index: 1000;
     position: sticky;
     display: flex;
     justify-content: space-around;
@@ -43,6 +46,7 @@ h1#logo .gold {
 }
 
 #intoolbar {
+    border-radius: 10px;
     width: 90px;
     height: 40px;
     position: relative;
@@ -51,6 +55,7 @@ h1#logo .gold {
 }
 
 #signin {
+    border-radius: 10px;
     background-color: hotpink;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -67,7 +72,7 @@ h1#logo .gold {
     left: 0;
     right: 0;
     margin: 50px;
-    top: 50px;
+    top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,12 +85,19 @@ h1.herotitle {
     font-weight: normal;
     font-style: normal;
     text-align: center;
-    font-size:70px;
-
+    font-size: 70px;
+    text-shadow: 1px 1px gold;
 }
 
 #signinhero {
-height: 75px;
-width: 150px;
-font-size: 30px;
+border-radius: 10px;
+    height: 75px;
+    width: 150px;
+    font-size: 30px;
+}
+
+.inoldmovies { 
+    /* Resize poster later */
+    height:500px;
+    width: 250px;
 }
