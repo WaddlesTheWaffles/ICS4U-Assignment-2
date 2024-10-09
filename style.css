@@ -96,8 +96,34 @@ border-radius: 10px;
     font-size: 30px;
 }
 
-.inoldmovies { 
-    /* Resize poster later */
-    height:500px;
-    width: 250px;
+.featuresec {
+    /* background-color: red; */
+    position: relative;
+    top: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featuretitle {
+    color: hotpink;
+}
+
+.oldmovies {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#movie2010 {
+    position:absolute;
+    left: 20px;
+    transform: translate(0%,-200%);
+}
+
+.inoldmovies { /* 16:23 */
+    border: 2px;
+    border-style: solid;
+    border-color: goldenrod;
+width: 340px;
+height: 515px;
 }
