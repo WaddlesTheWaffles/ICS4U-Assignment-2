@@ -109,9 +109,13 @@ border-radius: 10px;
 }
 
 .oldmovies {
-    background-color: white;
+    /* background-color: wheat; */
+
     display: flex;
     justify-content: space-around;
+    border-top-style: solid;
+    border-bottom-style: solid; /* Maybe remove border later*/
+    border-color: goldenrod;
 }
 
 #movie2010 {
@@ -121,6 +125,8 @@ border-radius: 10px;
 }
 
 .inoldmovies { /* 16:23 */
+    margin-top: auto;
+    margin-bottom: auto;
     border: 2px;
     border-style: solid;
     border-color: goldenrod;
