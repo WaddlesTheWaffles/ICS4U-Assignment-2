@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    height: 3000px;
+    height: 5000px;
 }
 
 .background {
@@ -99,9 +99,10 @@ border-radius: 10px;
 .featuresec {
     /* background-color: red; */
     position: relative;
-    top: 500px;
+    top: 550px;
     display: flex;
     flex-direction: column;
+    gap: 200px;
 }
 
 .featuretitle {
@@ -109,13 +110,9 @@ border-radius: 10px;
 }
 
 .oldmovies {
-    /* background-color: wheat; */
-
+    /* background-color: burlywood; */
     display: flex;
     justify-content: space-around;
-    border-top-style: solid;
-    border-bottom-style: solid; /* Maybe remove border later*/
-    border-color: goldenrod;
 }
 
 #movie2010 {
@@ -130,6 +127,50 @@ border-radius: 10px;
     border: 2px;
     border-style: solid;
     border-color: goldenrod;
-width: 340px;
-height: 515px;
+    width: 340px;
+    height: 515px;
+}
+
+.shrekmovies {
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#movieshrek {
+    position: absolute;
+    left: 20px;
+    transform: translate(0%,-200%);
+}
+
+.inshrekmovies {
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: goldenrod;
+    width: 340px;
+    height: 515px;
+}
+
+.transformermovies {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#movietransformer {
+    position: absolute;
+    left: 20px;
+    transform: translate(0%,-200%);
+}
+
+.intransformermovies {
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: goldenrod;
+    width: 340px;
+    height: 515px;
 }
