@@ -2,7 +2,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    height: 5000px;
 }
 
 .background {
@@ -68,10 +67,12 @@ h1#logo .gold {
 }
 
 .herosec {
+    /* background-color: rebeccapurple; */
     position: relative;
     left: 0;
     right: 0;
     margin: 50px;
+    margin-bottom: 200px;
     top: 80px;
     display: flex;
     flex-direction: column;
@@ -173,4 +174,41 @@ border-radius: 10px;
     border-color: goldenrod;
     width: 340px;
     height: 515px;
+}
+
+.footersec {
+    background-color: rgb(14, 12, 7);
+    width: 100%;
+    height: 250px;
+    margin-top: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 {
+    color: hotpink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+p.infooter {
+    color: rgb(189, 140, 18);
+}
+
+#githublinks {
+    /* background-color: rgb(36, 31, 31); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contactinfo {
+    /* background-color: rgb(36, 31, 31); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
