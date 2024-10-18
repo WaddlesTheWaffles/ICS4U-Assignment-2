@@ -44,6 +44,12 @@ h1#logo .gold {
     font-size: larger;
 }
 
+.signup:hover {
+    border: 2px;
+    border-style: solid;
+    border-color: gold;
+}
+
 #intoolbar {
     border-radius: 10px;
     width: 90px;
@@ -64,6 +70,12 @@ h1#logo .gold {
     position: relative;
     top: 23px;
     margin-right: 20px;
+}
+
+#signin:hover {
+    border: 2px;
+    border-style: solid;
+    border-color: gold;
 }
 
 .herosec {
@@ -110,11 +122,11 @@ border-radius: 10px;
     color: hotpink;
 }
 
-.oldmovies {
-    /* background-color: burlywood; */
-    display: flex;
-    justify-content: space-around;
+.movieposterbutton {
+    border: none;
+    background-color: transparent;
 }
+
 
 #movie2010 {
     position:absolute;
@@ -122,20 +134,29 @@ border-radius: 10px;
     transform: translate(0%,-200%);
 }
 
-.inoldmovies { /* 16:23 */
+.movies2010 {
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.in2010movies { /* 16:23 */
     margin-top: auto;
     margin-bottom: auto;
     border: 2px;
     border-style: solid;
     border-color: goldenrod;
+    border-radius: 15px;
     width: 340px;
     height: 515px;
 }
 
-.shrekmovies {
-    /* background-color: greenyellow; */
-    display: flex;
-    justify-content: space-around;
+.in2010movies:hover {
+    border: 5px;
+    border-style: solid;
+    border-color: goldenrod;
+    width: 334px;
+    height: 509px;
 }
 
 #movieshrek {
@@ -144,14 +165,29 @@ border-radius: 10px;
     transform: translate(0%,-200%);
 }
 
+.shrekmovies {
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-around;
+}
+
 .inshrekmovies {
     margin-top: auto;
     margin-bottom: auto;
     border: 2px;
     border-style: solid;
     border-color: goldenrod;
+    border-radius: 15px;
     width: 340px;
     height: 515px;
+}
+
+.inshrekmovies:hover {
+    border: 5px;
+    border-style: solid;
+    border-color: goldenrod;
+    width: 334px;
+    height: 509px;
 }
 
 .transformermovies {
@@ -172,15 +208,24 @@ border-radius: 10px;
     border: 2px;
     border-style: solid;
     border-color: goldenrod;
+    border-radius: 15px;
     width: 340px;
     height: 515px;
 }
 
+.intransformermovies:hover {
+    border: 5px;
+    border-style: solid;
+    border-color: goldenrod;
+    width: 334px;
+    height: 509px;
+}
+
 .footersec {
-    background-color: rgb(14, 12, 7);
+    background-color: rgb(19, 16, 9);
     width: 100%;
     height: 250px;
-    margin-top: 40%;
+    margin-top: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
